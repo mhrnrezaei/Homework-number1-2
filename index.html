@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section>
+      <div class="first-div">
+        <div class="container">
+          <div class="header">
+            <img src="image/Me.jpg" alt="My photo" />
+            <h1>مهران رضایی</h1>
+          </div>
+          <!-- This is first part -->
+          <h2>اطلاعات تماس</h2>
+          <hr />
+          <dl>
+            <dt>ایمیل :</dt>
+            <dd>mehranrezai83@gmail.com</dd>
+            <dt>شماره تماس :</dt>
+            <dd>09309768501</dd>
+          </dl>
+          <!-- This is second part -->
+          <h2>درباره من</h2>
+          <hr />
+          <blockquote>
+            مهران رضایی هستم دانشجوی ترم دوم کاردانی کامپیوتر نرم افزار در
+            دانشگاه شمسی پور علاقه مند به حوزه هوش مصنوعی و هم اکنون در حال
+            یادگیری طراحی وب هستم و مشتاق یرای ادامه تحصیل در حوزه علم داده یا
+            علوم کامپیوتر هستم
+          </blockquote>
+          <!--This is third part-->
+          <h2>مهارت ها</h2>
+          <hr />
+          <blockquote>
+            Learning (Html , css , javascript ) for Front-end <br />
+            And Python(django) For Back-end + Ai , ML <br />
+            And I know a little bit of C# , Ui Ux , Logo Design
+          </blockquote>
+        </div>
+      </div>
+      <div class="second-div">
+        <div class="container">
+          <div class="header-form-div">
+            <h1>Contact Me</h1>
+          </div>
+          <form action="index.html" method="POST">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+            />
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <select name="city" id="city">
+              <option value="tehran" selected>Tehran</option>
+              <option value="karaj">Karaj</option>
+              <option value="kermanshah">Kermanshah</option>
+              <option value="esfahan">Esfahan</option>
+              <option value="shiraz">Shiraz</option>
+              <option value="rasht">Rasht</option>
+              <option value="kish">Kish</option>
+            </select>
+            <input
+              type="text"
+              id="p-number"
+              name="p-number"
+              placeholder="Phone Number"
+            />
+            <textarea name="aboutme" id="about" placeholder="Ask Me"></textarea>
+            <input type="submit" name="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
